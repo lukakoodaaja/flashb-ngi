@@ -23,9 +23,14 @@ files {
     "html/*.ogg",
 }
 
-server_script 'server.lua'
+
 
 client_scripts {
     "config.lua",
     "client.lua"
-}server_scripts { '@mysql-async/lib/MySQL.lua' }
+}
+
+server_scripts { 
+    'server.lua',   
+    '@mysql-async/lib/MySQL.lua' 
+}
