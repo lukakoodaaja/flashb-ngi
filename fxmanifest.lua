@@ -1,9 +1,8 @@
 fx_version "cerulean"
 game "gta5"
 
-author "mmleczek (mbinary.pl)"
-description ""
-version "1.0.0"
+author "lukakoodaaja"
+version "8.0.0"
 
 data_file "WEAPON_METADATA_FILE" "data/weaponarchetypes.meta"
 data_file "WEAPON_ANIMATIONS_FILE" "data/weaponanimations.meta"
